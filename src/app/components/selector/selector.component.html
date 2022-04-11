@@ -1,0 +1,8 @@
+<p>
+  <i class="fas fa-arrow-left" (click)="change(-1)"></i>
+
+
+  <span>{{dataService.data | async | moment }}</span>
+
+  <i class="fas fa-arrow-right" (click)="change(1)"></i>
+</p>
